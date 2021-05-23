@@ -38,3 +38,7 @@ vagrant destroy
 vagrant box list
 vagrant box remove <box from previous command>
 ```
+
+## Nomad UI
+
+http://localhost:4646/
