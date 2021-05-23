@@ -1,11 +1,16 @@
 # learn-nomad
 Learn nomad basics
 
-## Start virtual env
+## Setup
+
+Here nomad is configured to run inside VM. 
+This VM is managed by Vagrant.
+
+### Start VM
 
 1. Install [virtualbox](https://www.virtualbox.org/)
 1. Install [vagrant](https://www.vagrantup.com/downloads).  
-1. In shell run:
+1. In the shell run:
 ```bash
 vagrant up
 vagrant ssh
@@ -19,7 +24,14 @@ vagrant suspend
 vagrant halt
 ```
 
-## Clean up everything
+### Update VM
+
+After updates in Vagrantfile you need to reload VM like: 
+```bash
+vagrant reload
+```
+
+### Clean up everything
 
 ```bash
 vagrant destroy
